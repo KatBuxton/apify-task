@@ -1,3 +1,5 @@
+// The code assumes that the API supports pagination using the 'offset' parameter and that it returns the total number of products. This could be overcome by a different pagination strategy, such as using other available parameters.
+
 import axios, {AxiosResponse} from 'axios';
 
 interface Product {
